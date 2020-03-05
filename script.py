@@ -5,10 +5,10 @@ attractions = [[] for i in destinations]
 def get_destination_index(destination):
     return destinations.index(destination)
 
-def get_traveler_location(traveler):
-    traveler_destination = traveler[1]
-    traveler_destination_index = destinations.index(traveler_destination)
-    return traveler_destination_index
+# def get_traveler_location(traveler):
+#     traveler_destination = traveler[1]
+#     traveler_destination_index = destinations.index(traveler_destination)
+#     return traveler_destination_index
 
 def add_attraction(destination, attraction):
     try:
